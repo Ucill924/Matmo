@@ -34,7 +34,7 @@ validator init \
 	curl -o <path to data directory> -sL <URL to data director
 \
 \\
-##open-validator
+open-validator
 
 
  --matmo=<goerli RPC url> \
