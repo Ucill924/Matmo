@@ -11,9 +11,12 @@
 For running a production grade public fullnode:
 
 CPU: 8 cores, 16 threads (Intel Xeon Skylake or newer).
+
 Memory: 32GB RAM.
+
 For running the public fullnode for development or testing:
 CPU: 2 cores.
+
 Memory: 4GB RAM.
 
 ## Configuring validator
