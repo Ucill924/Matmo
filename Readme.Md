@@ -9,6 +9,7 @@
 ## Requirements Hardware
 
 For running a production grade public fullnode:
+
 CPU: 8 cores, 16 threads (Intel Xeon Skylake or newer).
 Memory: 32GB RAM.
 For running the public fullnode for development or testing:
@@ -38,5 +39,22 @@ validator init \
         --network=beta-1
         --rpc.addr=127.0.0.6 \
         --rpc.port=9445 \
-      
+        base:
+  role: "full_node"
+  data_dir: "/opt/matmo/data"
+  waypoint:
+    from_file: "/opt/matmo/etc/waypoint.txt"
+
+execution:
+  genesis_file_location: "/opt/matmo/etc/genesis.blob"
+
+full_node_networks:
+- network_id: "public"
+  discovery_method: "onchain"
+  listen_address: "/ip4/0.0.0.0/tcp/6182"
+
+api:
+  enabled: true
+  address: "0.0.0.0:8080"
+--matmo.jwt-secret=<path to JWT secret>
 ```
