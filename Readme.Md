@@ -1,7 +1,7 @@
 
 # Guide Intsallation Node Validator Neutron Quark Tesnet
 
-<p style="font-size:14px" align="left">
+<p style="font-size:14px" align="left"> 
 <a href="https://twitter.com/Ucillny2" target="_blank">Follow my twitter</a>
 </p>
 
